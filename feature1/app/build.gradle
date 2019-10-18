@@ -11,7 +11,7 @@ android {
 }
 
 dependencies {
-    api project(':feature1:domain')
+    implementation project(':feature1:domain')
     implementation project(':feature1:data')
     implementation project(':feature1:view')
     testImplementation 'junit:junit:4.12'

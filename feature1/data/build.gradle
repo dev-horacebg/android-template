@@ -2,7 +2,7 @@ apply plugin: 'java-library'
 
 dependencies {
     implementation project(':feature1:domain')
-    testImplementation 'junit:junit:4.12'
+    testImplementation Deps.testlib_junit
 }
 
 sourceSets {

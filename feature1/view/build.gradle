@@ -16,9 +16,9 @@ android {
 dependencies {
     implementation project(':feature1:domain')
 
-    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation Deps.androidx_appcompat
     implementation Deps.androidx_core
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    testImplementation Deps.testlib_junit
+    androidTestImplementation Deps.testlib_junit
+    androidTestImplementation Deps.testandroidx_espressocore
 }
