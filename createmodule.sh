@@ -91,7 +91,7 @@ buildApp() {
 apply plugin: 'java-library'
 
 dependencies {
-    api project(':${MODULE}:domain')
+    implementation project(':${MODULE}:domain')
     implementation project(':${MODULE}:data')
 
     testImplementation Deps.testlib_junit
@@ -126,7 +126,7 @@ android {
 }
 
 dependencies {
-    api project(':${MODULE}:domain')
+    implementation project(':${MODULE}:domain')
     implementation project(':${MODULE}:data')
     implementation project(':${MODULE}:view')
     testImplementation Deps.testlib_junit
