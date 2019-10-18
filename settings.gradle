@@ -1,0 +1,4 @@
+include ':app'
+include 'feature1:app', 'feature1:domain', 'feature1:data', 'feature1:view'
+
+rootProject.name='Android Template'
