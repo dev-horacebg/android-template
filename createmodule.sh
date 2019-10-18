@@ -12,7 +12,7 @@ buildDomain(){
 apply plugin: 'java-library'
 
 dependencies {
-    testImplementation 'junit:junit:4.12'
+    testImplementation Deps.testlib_junit
 }
 
 sourceSets {
@@ -33,7 +33,7 @@ apply plugin: 'java-library'
 
 dependencies {
     implementation project(':${MODULE}:domain')
-    testImplementation 'junit:junit:4.12'
+    testImplementation Deps.testlib_junit
 }
 
 sourceSets {
@@ -71,11 +71,11 @@ android {
 dependencies {
     implementation project(':${MODULE}:domain')
 
-    implementation 'androidx.appcompat:appcompat:1.0.2'
-    implementation 'androidx.core:core-ktx:1.0.2'
-    testImplementation 'junit:junit:4.12'
+    implementation Deps.androidx_appcompat
+    implementation Deps.androidx_core
+    testImplementation Deps.testlib_junit
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    androidTestImplementation Deps.testandroidx_espressocore
 }
 EOL
 }
@@ -94,7 +94,7 @@ dependencies {
     api project(':${MODULE}:domain')
     implementation project(':${MODULE}:data')
 
-    testImplementation 'junit:junit:4.12'
+    testImplementation Deps.testlib_junit
 }
 
 sourceSets {
@@ -129,7 +129,7 @@ dependencies {
     api project(':${MODULE}:domain')
     implementation project(':${MODULE}:data')
     implementation project(':${MODULE}:view')
-    testImplementation 'junit:junit:4.12'
+    testImplementation Deps.testlib_junit
 }
 
 EOL

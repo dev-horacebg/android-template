@@ -16,11 +16,12 @@ object Versions {
     const val androidx_navigation = "2.0.0"
     const val androidx_constraintLayout = "1.1.3"
     const val material = "1.1.0-alpha04"
+    const val androidx_appcompat = "1.1.0"
     // </editor-fold>
 
     // <editor-fold desc="testing">
     const val junit = "4.12"
-    const val androidx_espresso = "3.1.0"
+    const val androidx_espresso = "3.1.1"
     const val androidx_testing = "1.1.1"
     //</editor-fold>
 
@@ -39,6 +40,7 @@ object Deps {
     val androidx_navigation_fragment = "androidx.navigation:navigation-fragment-ktx:${Versions.androidx_navigation}"
     val androidx_navigation_ui = "androidx.navigation:navigation-ui-ktx:${Versions.androidx_navigation}"
     val androidx_recyclerview = "androidx.recyclerview:recyclerview:${Versions.androidx_recyclerview}"
+    val androidx_appcompat = "androidx.appcompat:appcompat:${Versions.androidx_appcompat}"
 
     val testlib_junit = "junit:junit:${Versions.junit}"
 
