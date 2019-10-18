@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Android Template.iml" filepath="$PROJECT_DIR$/Android Template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/Android Template-app.iml" filepath="$PROJECT_DIR$/app/Android Template-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buildSrc/buildSrc.iml" filepath="$PROJECT_DIR$/buildSrc/buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature1/data/data.iml" filepath="$PROJECT_DIR$/feature1/data/data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature1/domain/domain.iml" filepath="$PROJECT_DIR$/feature1/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature1/feature1.iml" filepath="$PROJECT_DIR$/feature1/feature1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature1/app/feature1-app.iml" filepath="$PROJECT_DIR$/feature1/app/feature1-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature1/view/view.iml" filepath="$PROJECT_DIR$/feature1/view/view.iml" />
+    </modules>
+  </component>
+</project>
