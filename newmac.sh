@@ -22,7 +22,7 @@ brew install scrcpy
 # Apps
 #
 # Java SDK 8 (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-brew cask install java8
+# brew cask install java8
 # Android Studio (https://developer.android.com/studio)
 brew cask install android-studio
 # Android Platform Tools (https://developer.android.com/studio/releases/platform-tools)
