@@ -44,7 +44,7 @@ brew cask install postman
 # Google Chrome (https://www.google.co.uk/chrome/)
 brew cask install google-chrome
 # Brave browser (https://www.brave.com/)
-brew brew cask install brave
+brew cask install brave-browser
 # Slack macOS client (https://slack.com/intl/en-gb/downloads/mac)
 brew cask install slack
 # Zeplin: collaboration tool for designers/developers (https://zeplin.io/)
