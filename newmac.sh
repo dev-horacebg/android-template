@@ -25,38 +25,36 @@ brew install scrcpy
 # brew cask install java8
 # Android Studio (https://developer.android.com/studio)
 
-brew cask install android-studio
+brew install --cask android-studio
 # Android Platform Tools (https://developer.android.com/studio/releases/platform-tools)
-brew cask install android-platform-tools
+brew install --cask android-platform-tools
 # IntelliJ Idea Community Edition (https://www.jetbrains.com/idea/)
-brew cask install intellij-idea-ce
+brew install --cask intellij-idea-ce
 
 # Atom: text editor (https://atom.io/)
-brew cask install atom
+brew install --cask atom
 # Sublime Text: text editor (https://www.sublimetext.com/)
-brew cask install sublime-text
+brew install --cask sublime-text
 # Macdown: open source markdown editor (https://github.com/MacDownApp/macdown)
-brew cask install macdown
+brew install --cask macdown
 # iTerm2: terminal with extra features (https://www.iterm2.com/)
-brew cask install iterm2
-# Charles Proxy: http proxy/monitor (https://www.charlesproxy.com/)
-brew cask install charles
+brew install --cask iterm2
 # Postman: tool to manage APIs (https://www.getpostman.com/)
-brew cask install postman
+brew install --cask postman
 # Google Chrome (https://www.google.co.uk/chrome/)
-brew cask install google-chrome
+brew install --cask google-chrome
 # Brave browser (https://www.brave.com/)
-brew cask install brave-browser
+brew install --cask brave-browser
 # Slack macOS client (https://slack.com/intl/en-gb/downloads/mac)
-brew cask install slack
+brew install --cask slack
 # Figma: collaboration tool for designers/developers (https://zeplin.io/)
-brew cask install figma
+brew install --cask figma
 # Spotify (https://www.spotify.com/uk/download/mac/)
-brew cask install spotify
+brew install --cask spotify
 # Appcleaner: to clean uninstall apps (https://freemacsoft.net/appcleaner/)
-brew cask install appcleaner
+brew install --cask appcleaner
 # 1Password: Password manager
-brew cask install 1password
+brew install --cask 1password
 
 brew install asdf
 brew install android-sdk
