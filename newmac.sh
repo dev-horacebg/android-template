@@ -24,11 +24,13 @@ brew install scrcpy
 # Java SDK 8 (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 # brew cask install java8
 # Android Studio (https://developer.android.com/studio)
+
 brew cask install android-studio
 # Android Platform Tools (https://developer.android.com/studio/releases/platform-tools)
 brew cask install android-platform-tools
 # IntelliJ Idea Community Edition (https://www.jetbrains.com/idea/)
 brew cask install intellij-idea-ce
+
 # Atom: text editor (https://atom.io/)
 brew cask install atom
 # Sublime Text: text editor (https://www.sublimetext.com/)
@@ -47,11 +49,24 @@ brew cask install google-chrome
 brew cask install brave-browser
 # Slack macOS client (https://slack.com/intl/en-gb/downloads/mac)
 brew cask install slack
-# Zeplin: collaboration tool for designers/developers (https://zeplin.io/)
-brew cask install zeplin
+# Figma: collaboration tool for designers/developers (https://zeplin.io/)
+brew cask install figma
 # Spotify (https://www.spotify.com/uk/download/mac/)
 brew cask install spotify
 # Appcleaner: to clean uninstall apps (https://freemacsoft.net/appcleaner/)
 brew cask install appcleaner
 # 1Password: Password manager
 brew cask install 1password
+
+brew install asdf
+brew install android-sdk
+brew install intel-haxm
+brew install --cask homebrew/cask-versions/adoptopenjdk8
+
+asdf plugin-add dart https://github.com/patoconnor43/asdf-dart.git
+asdf plugin-add flutter
+asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
+
+asdf install dart latest
+asdf install flutter latest
+asdf install ruby latest
